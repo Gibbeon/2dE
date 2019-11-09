@@ -4,14 +4,17 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "run 2dEdit",
+            "label": "build",
             "command": "dotnet",
             "type": "shell",
             "args": [
-                "run",
-                "--project:./projects/2dEdit/2dEdit.csproj"
+                "build",
+                "./projects/2dEdit/2dEdit.csproj"
             ],
-            "group": "build",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
             "problemMatcher": "$msCompile"
         }
     ]
