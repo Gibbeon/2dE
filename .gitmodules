@@ -1,1 +1,19 @@
 
+[submodule "packages/LuaJIT"]
+	path = packages/LuaJIT
+	url = https://github.com/LuaJIT/LuaJIT.git
+[submodule "packages/glm"]
+	path = packages/glm
+	url = https://github.com/g-truc/glm
+[submodule "packages/gli"]
+	path = packages/gli
+	url = https://github.com/g-truc/gli
+[submodule "packages/openal-soft"]
+	path = packages/openal-soft
+	url = https://github.com/kcat/openal-soft
+[submodule "packages/chipmunk2d"]
+	path = packages/chipmunk2d
+	url = https://github.com/slembcke/Chipmunk2D.git
+[submodule "packages/glfw"]
+	path = packages/glfw
+	url = https://github.com/glfw/glfw.git
