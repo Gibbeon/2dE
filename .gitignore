@@ -1,11 +1,11 @@
 # Local Output Directories
 **/bin
 **/lib
+**/obj
 **/build/
 **/build-*/
 **/temp
 **/cmakefiles
-**/packages
 
 # Prerequisites
 *.d
